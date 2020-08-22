@@ -1,4 +1,5 @@
 from sklearn.base import BaseEstimator, TransformerMixin, ClassifierMixin
+import xgboost as xgb
 
 
 # All sklearn Transforms must have the `transform` and `fit` methods
